@@ -17,9 +17,12 @@ class TodoList extends Component {
     }
     handleDropdownChange = (e)=>{
          console.log(e.target.value,"target value")
-         this.setState({ currentStatus: e.target.value });
+         this.setState({ 
+             currentStatus: e.target.value 
+            });
 
     }
+
     render(){
         const {allTodoList} = this.props;
        
