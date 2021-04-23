@@ -15,6 +15,7 @@ import { Link } from 'react-router-dom';
     onInputChange=(e)=>{
         this.setState({
             [e.target.name]:e.target.value
+        
         })
     }
     onFormSubmit=(e)=>{
